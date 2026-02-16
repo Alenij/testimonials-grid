@@ -9,7 +9,7 @@ function App() {
     <>
       <div className="bg-gray-100 min-h-screen flex justify-center items-center p-8">
         <div className="grid grid-col-1 md:grid-cols-4 gap-6">
-          <div className="bg-[hsl(263,55%,52%)] p-8 rounded-lg md:col-span-2">
+          <div className="bg-[hsl(263,55%,52%)] p-8 rounded-lg md:col-span-2 shadoww">
             <div className="flex gap-3">
               <img
                 src={daniel}
@@ -36,7 +36,7 @@ function App() {
               careers, working as a Software Engineer at a VR startup. ”
             </p>
           </div>
-          <div className="bg-[hsl(224,10%,45%)] p-8 rounded-lg text-gray-100">
+          <div className="bg-[hsl(224,10%,45%)] p-8 rounded-lg text-gray-100 shadoww">
             <div className="flex gap-3">
               <img
                 src={jonathan}
@@ -57,7 +57,7 @@ function App() {
               the best investments I’ve made in myself. ”
             </p>
           </div>
-          <div className="bg-white p-8 rounded-lg text-gray-500 md:row-span-2">
+          <div className="bg-white p-8 rounded-lg text-gray-500 md:row-span-2 shadoww">
             <div className="flex gap-3">
               <img
                 src={kira}
@@ -87,7 +87,7 @@ function App() {
               100% recommend! ”
             </p>
           </div>
-          <div className="bg-white p-8 rounded-lg text-gray-500">
+          <div className="bg-white p-8 rounded-lg text-gray-500 shadoww">
             <div className="flex gap-3">
               <img
                 src={jeanette}
@@ -108,7 +108,7 @@ function App() {
               ”
             </p>
           </div>
-          <div className="bg-[hsl(217,19%,35%)] p-8 rounded-lg text-gray-200 md:col-span-2">
+          <div className="bg-[hsl(217,19%,35%)] p-8 rounded-lg text-gray-200 md:col-span-2 shadoww">
             <div className="flex gap-3">
               <img
                 src={patrick}
